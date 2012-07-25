@@ -1,0 +1,291 @@
+Starting singlethreaded benchmark using 500000000 iterations! Performing the test 5 times (give hotspot a chance..) 
+
+-- Singlethreaded benchmark iteration 1 --
+
+Benchmark performed. Results:
+
+Thread: main
+unsynchronized time: 551ms
+synchronized time: 12116ms
+atomic time: 5119ms
+
+Counter => Synchronized: 500000000 Unsynchronized: 500000000 Atomic: 500000000
+
+-- Singlethreaded benchmark iteration 2 --
+
+Benchmark performed. Results:
+
+Thread: main
+unsynchronized time: 533ms
+synchronized time: 1623ms
+atomic time: 5116ms
+
+Counter => Synchronized: 500000000 Unsynchronized: 500000000 Atomic: 500000000
+
+-- Singlethreaded benchmark iteration 3 --
+
+Benchmark performed. Results:
+
+Thread: main
+unsynchronized time: 521ms
+synchronized time: 1607ms
+atomic time: 5102ms
+
+Counter => Synchronized: 500000000 Unsynchronized: 500000000 Atomic: 500000000
+
+-- Singlethreaded benchmark iteration 4 --
+
+Benchmark performed. Results:
+
+Thread: main
+unsynchronized time: 510ms
+synchronized time: 1613ms
+atomic time: 5119ms
+
+Counter => Synchronized: 500000000 Unsynchronized: 500000000 Atomic: 500000000
+
+-- Singlethreaded benchmark iteration 5 --
+
+Benchmark performed. Results:
+
+Thread: main
+unsynchronized time: 514ms
+synchronized time: 1623ms
+atomic time: 5079ms
+
+Counter => Synchronized: 500000000 Unsynchronized: 500000000 Atomic: 500000000
+
+---
+
+Starting multithreaded benchmark using 500000000 iterations! Performing the test 5 times (give hotspot a chance..)
+Creating 8 Threads. Each one is incrementing the counter 62500000 times!
+
+-- Multithreaded benchmark iteration 0 --
+
+Benchmark performed. Results:
+
+Thread: pool-1-thread-1
+unsynchronized time: 222ms
+synchronized time: 79919ms
+atomic time: 17157ms
+
+Thread: pool-1-thread-2
+unsynchronized time: 248ms
+synchronized time: 81835ms
+atomic time: 20422ms
+
+Thread: pool-1-thread-3
+unsynchronized time: 218ms
+synchronized time: 82029ms
+atomic time: 20117ms
+
+Thread: pool-1-thread-4
+unsynchronized time: 228ms
+synchronized time: 80979ms
+atomic time: 21527ms
+
+Thread: pool-1-thread-5
+unsynchronized time: 239ms
+synchronized time: 81439ms
+atomic time: 20959ms
+
+Thread: pool-1-thread-6
+unsynchronized time: 229ms
+synchronized time: 82006ms
+atomic time: 20529ms
+
+Thread: pool-1-thread-7
+unsynchronized time: 244ms
+synchronized time: 81325ms
+atomic time: 18737ms
+
+Thread: pool-1-thread-8
+unsynchronized time: 237ms
+synchronized time: 80391ms
+atomic time: 20114ms
+
+Counter => Synchronized: 500000000 Unsynchronized: 65750516 Atomic: 500000000
+
+-- Multithreaded benchmark iteration 1 --
+
+Benchmark performed. Results:
+
+Thread: pool-1-thread-1
+unsynchronized time: 228ms
+synchronized time: 77038ms
+atomic time: 2390ms
+
+Thread: pool-1-thread-7
+unsynchronized time: 231ms
+synchronized time: 81467ms
+atomic time: 16819ms
+
+Thread: pool-1-thread-8
+unsynchronized time: 241ms
+synchronized time: 80246ms
+atomic time: 12754ms
+
+Thread: pool-1-thread-3
+unsynchronized time: 223ms
+synchronized time: 80717ms
+atomic time: 15227ms
+
+Thread: pool-1-thread-2
+unsynchronized time: 219ms
+synchronized time: 80893ms
+atomic time: 16340ms
+
+Thread: pool-1-thread-5
+unsynchronized time: 235ms
+synchronized time: 81669ms
+atomic time: 16659ms
+
+Thread: pool-1-thread-4
+unsynchronized time: 231ms
+synchronized time: 80888ms
+atomic time: 13609ms
+
+Thread: pool-1-thread-6
+unsynchronized time: 232ms
+synchronized time: 81766ms
+atomic time: 16503ms
+
+Counter => Synchronized: 1000000000 Unsynchronized: 128398009 Atomic: 1000000000
+
+-- Multithreaded benchmark iteration 2 --
+
+Benchmark performed. Results:
+
+Thread: pool-1-thread-1
+unsynchronized time: 233ms
+synchronized time: 80746ms
+atomic time: 11754ms
+
+Thread: pool-1-thread-8
+unsynchronized time: 249ms
+synchronized time: 78684ms
+atomic time: 6595ms
+
+Thread: pool-1-thread-4
+unsynchronized time: 221ms
+synchronized time: 80417ms
+atomic time: 15685ms
+
+Thread: pool-1-thread-3
+unsynchronized time: 247ms
+synchronized time: 81848ms
+atomic time: 15478ms
+
+Thread: pool-1-thread-2
+unsynchronized time: 233ms
+synchronized time: 80583ms
+atomic time: 18374ms
+
+Thread: pool-1-thread-6
+unsynchronized time: 235ms
+synchronized time: 81998ms
+atomic time: 17496ms
+
+Thread: pool-1-thread-7
+unsynchronized time: 221ms
+synchronized time: 80820ms
+atomic time: 18298ms
+
+Thread: pool-1-thread-5
+unsynchronized time: 230ms
+synchronized time: 81952ms
+atomic time: 17533ms
+
+Counter => Synchronized: 1500000000 Unsynchronized: 190916117 Atomic: 1500000000
+
+-- Multithreaded benchmark iteration 3 --
+
+Benchmark performed. Results:
+
+Thread: pool-1-thread-8
+unsynchronized time: 241ms
+synchronized time: 81464ms
+atomic time: 21839ms
+
+Thread: pool-1-thread-1
+unsynchronized time: 244ms
+synchronized time: 80998ms
+atomic time: 21142ms
+
+Thread: pool-1-thread-4
+unsynchronized time: 232ms
+synchronized time: 80205ms
+atomic time: 19829ms
+
+Thread: pool-1-thread-3
+unsynchronized time: 234ms
+synchronized time: 81785ms
+atomic time: 21073ms
+
+Thread: pool-1-thread-2
+unsynchronized time: 232ms
+synchronized time: 80396ms
+atomic time: 21009ms
+
+Thread: pool-1-thread-7
+unsynchronized time: 232ms
+synchronized time: 81730ms
+atomic time: 21615ms
+
+Thread: pool-1-thread-5
+unsynchronized time: 213ms
+synchronized time: 81823ms
+atomic time: 20942ms
+
+Thread: pool-1-thread-6
+unsynchronized time: 219ms
+synchronized time: 81900ms
+atomic time: 21414ms
+
+Counter => Synchronized: 2000000000 Unsynchronized: 253455747 Atomic: 2000000000
+
+-- Multithreaded benchmark iteration 4 --
+
+Benchmark performed. Results:
+
+Thread: pool-1-thread-4
+unsynchronized time: 230ms
+synchronized time: 80852ms
+atomic time: 21606ms
+
+Thread: pool-1-thread-2
+unsynchronized time: 237ms
+synchronized time: 81386ms
+atomic time: 21236ms
+
+Thread: pool-1-thread-1
+unsynchronized time: 229ms
+synchronized time: 80409ms
+atomic time: 17745ms
+
+Thread: pool-1-thread-5
+unsynchronized time: 235ms
+synchronized time: 81541ms
+atomic time: 21159ms
+
+Thread: pool-1-thread-3
+unsynchronized time: 232ms
+synchronized time: 81260ms
+atomic time: 21879ms
+
+Thread: pool-1-thread-6
+unsynchronized time: 228ms
+synchronized time: 81922ms
+atomic time: 21294ms
+
+Thread: pool-1-thread-8
+unsynchronized time: 244ms
+synchronized time: 81396ms
+atomic time: 21789ms
+
+Thread: pool-1-thread-7
+unsynchronized time: 229ms
+synchronized time: 81784ms
+atomic time: 19461ms
+
+Counter => Synchronized: 2500000000 Unsynchronized: 316260913 Atomic: 2500000000
